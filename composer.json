@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "scottmadsen/products",
   "description": "",
   "keywords": [],
   "license": "proprietary",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ScottMadsen\\Products\\": "src"
+      "ScottMadsen\\Products\\": "src/"
     }
   },
   "autoload-dev": {
