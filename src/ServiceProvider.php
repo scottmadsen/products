@@ -22,7 +22,7 @@ class ServiceProvider extends LaravelServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__.'/../migrations');
         $this->handleConfigs();
-        // $this->handleMigrations();
+        $this->handleMigrations();
         // $this->handleViews();
         // $this->handleTranslations();
         // $this->handleRoutes();
