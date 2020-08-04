@@ -1,4 +1,3 @@
-
 {
   "name": "scottmadsen/product",
   "description": "Package boilerplate to speed up the package development process.",
@@ -9,7 +8,9 @@
       "email": "smadsen3@1800contacts.com"
     }
   ],
-  "require": {},
+  "require": {
+    "rinvex/laravel-attributes": "^4.1"
+  },
   "require-dev": {
     "phpunit/phpunit": "^8.3"
   },
