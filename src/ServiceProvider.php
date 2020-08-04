@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\Package;
+namespace ScottMadsen\Products;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
@@ -20,6 +20,7 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function boot()
     {
+        $this->loadMigrationsFrom(__DIR__.'/migrations');
         $this->handleConfigs();
         // $this->handleMigrations();
         // $this->handleViews();

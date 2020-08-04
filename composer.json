@@ -20,21 +20,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\Package\\": "src/"
+      "ScottMadsen\\Products\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Vendor\\Package\\Tests\\": "tests/"
+      "ScottMadsen\\Products\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
         "providers": [
-            "Vendor\\Package\\ServiceProvider"
+            "ScottMadsen\\Products\\ServiceProvider"
         ],
         "aliases": {
-            "Package": "Vendor\\Package\\Facade"
+            "Package": "ScottMadsen\\Products\\Facade"
         }
     }
   },
