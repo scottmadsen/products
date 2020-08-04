@@ -1,6 +1,6 @@
 <?php
 
-namespace ScottMadsen\Product;
+namespace ScottMadsen\Products;
 
 //use LazyElePHPant\Menu\Models\MyPackage;
 use Illuminate\Console\Events\CommandFinished;
@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\ServiceProvider;
 use Symfony\Component\Console\Output\ConsoleOutput;
 
-class ProductServiceProvider extends ServiceProvider
+class ProductsServiceProvider extends ServiceProvider
 {
     protected $seeds_path = '/Seeds';
     protected $seeds_path_from_parent = 'LazyElePHPant\\MyPackage\\Seeds\\';
